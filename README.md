@@ -2,13 +2,13 @@
 
 A machine learning system that classifies SMS and email messages as **Spam** or **Ham** (not spam), built with an ensemble of multiple classifiers and deployed as an interactive web app.
 
-
+___
 
 ## 📌 What This Project Does
 
 Takes a raw SMS or email message as input, processes the text, and predicts whether it is spam or legitimate — with 97% accuracy on the test dataset.
 
-
+___
 
 ## ⚙️ Tech Stack
 
@@ -20,7 +20,7 @@ Takes a raw SMS or email message as input, processes the text, and predicts whet
 | Data | Pandas, NumPy |
 | Web App | Streamlit |
 
-
+___
 
 ## 🔍 How It Works
 
@@ -39,7 +39,7 @@ Takes a raw SMS or email message as input, processes the text, and predicts whet
 - Evaluated using accuracy, precision, and confusion matrix
 - Applied hyperparameter tuning to optimize performance
 
-
+___
 
 ## 📊 Results
 
@@ -49,7 +49,7 @@ Takes a raw SMS or email message as input, processes the text, and predicts whet
 | Best Model | Voting Classifier (SVM + Decision Tree + Extra Trees) |
 | Dataset | Kaggle SMS Spam Collection |
 
-
+___
 
 ## 🚀 How to Run Locally
 
@@ -67,7 +67,7 @@ streamlit run app.py
 
 Then open `http://localhost:8501` in your browser, paste any message, and hit Predict.
 
-
+___
 
 ## 📁 File Structure
 
